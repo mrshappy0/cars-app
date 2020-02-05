@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+input, label {
+    display: block;
+}
+
+label {
+    display: none;
+
+}
+
+input {
+    margin-bottom: 0.5rem;
+}
+
+[type = submit] {
+    padding: 1rem;
+    background-color: hsl(240, 50%, 50%);
+    border: none;
+    color: #fff;
+    box-shadow: 1px 1px 1px #333;
+    cursor: pointer;
+    transition: all 0.2s
+}
+
+[type=submit]:hover{
+    background-color: hsl(240, 50%, 55%);
+}
